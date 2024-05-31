@@ -1,0 +1,20 @@
+El primer paso para poder ejecutar correctamente el código es instalarse todas las librerías reflejadas en el archivo requirements.txt.
+Luego habrá que ejecutar el programa main.py y aparecerá una pantalla con 5 campos para introducir valores y, bajo estos, dos botones.
+Para registrarse habrá que utilizar los 3 campos de la derecha, siendo su orden de arriba a abajo: Nombre_de_usuario, Correo_electrónico y contraseña, con su respectivo botón.
+La contraseña debe ser de al menos 8 caracteres, incluyendo al menos una letra mayuscula, un simbolo (# por ejemplo) y un número.
+Tras esto habrá que guardar una imagen del usuario vinculado a dicha cuenta.
+Se abrirá automáticamente una ventana en la que se abrirá la cámara del usuario (debe estar operativa).
+Se deberá mirar a la pantalla parpadeando de forma continua y esperando más o menos medio segundo entre parpadeos.
+Esto se deberá hacer hasta que el cuadrado alrededor de la cara pase de color rojo a color verde.
+Tras esto se podrá cerrar la pantalla de la cámara para iniciar sesión.
+Las librerías utilizadas en el inicio de la cámara, al cerrar las pestañas de las cámaras, no las cierran correctamente y hay que volver a introducir los datos para que abra la pantalla correctamente.
+Cuando falle se debe volver a introducir los datos de registro o inicio de sesión. Tener en cuenta que aunque la cámara falle, todos los ficheros relacionados con el registro de un usuario se crean, por lo que no se podrán utilizar esos valores de nuevo.
+Para iniciar sesión, usando los campos de la izquierda con su botón, habrá que poner en orden de arriba hacia abajo: Correo_electrónico y contraseña.
+Se deberá volver a hacer el reconocimiento facial y, tras ser reconocido, se abrirá la interfaz del usuario, pudiendo cerrar la pantalla de la cámara de forma opcional.
+En esta nueva interfaz hay 3 “zonas”, la zona para enviar mensajes, la zona para ver las transacciones y la zona para ver el dinero que se tiene.
+Para enviar mensajes se deberá poner como nombre el correo del usuario al que se quiere enviar el mensaje y el mensaje a enviar debe ser obligatoriamente un número entero. Para que el mensaje se envíe pulsar el botón enviar.
+Para ver las transacciones se deberá pulsar el botón Transacciones, para marcar el mensaje actual como visto pulsar el botón Visto y para ver el dinero del que se dispone pulsar el botón Importe.
+En ningún caso se podrá tener a dos usuarios que compartan la misma foto de reconocimiento (no puede tener una misma persona 2 cuentas con nombre, correo y contraseña diferentes), ya que daría error al iniciar sesión.
+Durante la ejecución apareceran en terminal aspectos sobre la ejecución, como por ejemplo si la comprobación de certificados es correcta.
+EL código se entrega con ficheros dentro de la base de datos, pero estos pueden ser borrados y se generarán durante la ejecución del programa.
+
